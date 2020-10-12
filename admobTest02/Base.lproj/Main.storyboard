@@ -23,9 +23,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qu9-aN-4Jq" customClass="GADBannerView">
-                                <rect key="frame" x="47" y="812" width="320" height="50"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qu9-aN-4Jq" customClass="GADBannerView">
+                                <rect key="frame" x="47" y="846" width="320" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="2vc-pS-Tyg"/>
                                     <constraint firstAttribute="height" constant="50" id="4lf-ud-S3i"/>
@@ -35,7 +35,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.49585087435233166" green="0.49585087435233166" blue="0.49585087435233166" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Qu9-aN-4Jq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Qqs-Vb-idc"/>
+                            <constraint firstItem="Qu9-aN-4Jq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bxP-mg-NoJ"/>
+                            <constraint firstItem="Qu9-aN-4Jq" firstAttribute="baseline" secondItem="8bC-Xf-vdC" secondAttribute="baseline" id="fke-NN-Tuw"/>
                         </constraints>
                     </view>
                     <connections>
@@ -48,8 +49,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
